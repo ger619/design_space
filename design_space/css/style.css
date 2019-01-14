@@ -8,6 +8,12 @@ body {
 /*Header Menu CSS*/
 
 
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
 ul {
 	margin:0;
 	padding:0;
@@ -21,7 +27,7 @@ li {
 	
 }
 nav {
-	position: fixed;
+
 	text-align:center;
 	width:100%;
 	position:fixed;
@@ -68,7 +74,7 @@ nav ul li a:hover {
 .btn-open:after {
 	color:#333;
 	content:"\f0c9";
-	font-family:"FontAwesome";
+	
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
@@ -80,7 +86,7 @@ nav ul li a:hover {
 .btn-close:after {
 	color:#fff;
 	content:"\f00d";
-	font-family:"FontAwesome";
+	
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
@@ -249,7 +255,15 @@ nav ul li a:hover {
      height:250px;
      width:90%;
      margin:auto;
-}
+   }
+   .box{
+    background:#737373;
+    border-radius: 10px; 
+   }
+   .img1{
+    border-radius: 10px; 
+   }
+
 .row3 .col-md-4 .boxb{
       background-color:  #e60000;
       height:220px;
@@ -267,56 +281,91 @@ nav ul li a:hover {
 }
 .row4 {
      background-color:  #e60000;
-     height: 600px;
-     margin-top:10px;
+     
      
 }
-.row4 .col-md-6 .one{
-     background-color:  #A9A9A9;
-     height:400px;
-     width:96%;
-     margin-top: 100px;
-     margin-left: 50px;
+.bg-red{
+  
+  
+  background-image: url(../images/background.jpg);
+  opacity: 0.9;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
 }
-.row4 .col-md-6 .two{
+
+ #mainoff
+ {
+            background-image:url("images/mainoffice.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+
+          }
+
+            #juniorof{
+            background-image:url("images/junioroffice.jpg");
+            
+            background-repeat:no-repeat;
+            background-size:cover;
+          }
+          
+            #compoundof{
+            background-image:url("images/compoundareas.jpg");
+            
+            background-repeat:no-repeat;
+            background-size:cover;
+          }
+
+
+.one{
+ 
+  background-color:  #A9A9A9;
+  border-radius: 10px; 
+     
+}
+.one h3{
+ 
+  text-align: center;
+}
+
+.one p{
+ 
+  text-align: center;
+}
+.two
+{
      background-color: #696969;
-     height:400px;
-     width:92%;
-     margin-top: 100px;
+     border-radius: 10px; 
+    
+   }
+
+.two h3{
+  
+  text-align: center;
 }
-.row4 h3{
-    color: #fff;
-    font-size: 40px;
-    margin-left: 35%;
-    padding-top: 60px;
-    }
-.row4 p { color: #fff;
-          font-size: 15px;
-	  margin: 50px 0px 0px 0px;
-	  margin-left: 20px;
+
+.two p{
+ 
+  text-align: center;
 }
-.row5 {
-     background-color: #b30000;
-     height: 600px;
-     margin-top:10px;
+/*foooter style*/
+.footer{
+  
+
 }
-.row5 h3{
-    color: #fff;
-    font-size: 30px;
-    text-align: center; 
-    margin-left:50px;
-    margin-top:50px;
-    }
-.row6 {
-     background-color: #fff;
-     height: 50px;
+.row6{
+      background-color: #e60000;
+      height: 50px; 
+
+
 }
+
 .row6 p{ 
-     color: #e60000;
+     color: #fff;
      margin-top: 20px;
      font-size :12px;
 
-}
 
 
 /*about css*/
@@ -424,6 +473,11 @@ nav ul li a:hover {
   color: white;
   font-size: 15px;
 }
+.about .box .buttonc {
+     background-color: #e60000;
+     color: white;
+     font-size: 15px;
+   }
 
 
 /*about2 css*/
@@ -564,7 +618,7 @@ nav ul li a:hover {
      border-radius:7px;
 }
 .portfolio .row6{
-              background-color: #fff;
+              background-color: #e60000;
               height: 240px; 
 }
 .portfolio .row6 .col-md-6 .box{
@@ -619,13 +673,13 @@ nav ul li a:hover {
    }
    img {
      margin: 5px;
-     max-width:300px;
+     max-width:250px;
      max-height: 300px;
    
    }
    
    .isotope-item {
-     z-index: 3;
+     z-index: 4;
    }
    
    .isotope-hidden.isotope-item {
@@ -653,3 +707,4 @@ nav ul li a:hover {
      transition-property: transform, opacity;
    }
     
+
