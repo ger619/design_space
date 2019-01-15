@@ -1,0 +1,51 @@
+section{
+	margin-bottom: 20px;
+}
+.text-white{
+	color:white;
+}
+.trial{
+	position:relative;
+	
+	height:500px;
+	
+	border-top-left-radius: 100%;
+	border-top-right-radius: 30%;  
+	background-color: red;
+	padding:30px;
+	clear:both;
+
+	}
+
+	.fa{
+		color:white;
+	}
+	.bottom{
+		position: absolute;
+		bottom:0;
+		right: 0;
+		left:0;
+		
+		padding-left: 30px;
+	}
+
+	 .menu .menu-item{
+
+	 	padding-right:25px;
+		border-right: 1px solid white;
+	}
+	.cont{
+		box-shadow: 2px 5px 5px #ece;
+	}
+	.box-ab{
+		position: relative;
+		text-align: center;
+	}
+	.over{
+		position: absolute;
+		padding: auto;
+		top:50%;
+		left:38%;
+		text-align: center;
+		background-color: rgba(230,0,0,.8)
+	}
