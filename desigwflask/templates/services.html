@@ -1,0 +1,167 @@
+<!--the html extends block from layout.html-->
+{% extends "layout.html" %}
+{% block content %}
+<!--The block loads da-->
+
+<!--Row1-->
+<section>
+	  <div class="container mt-5">
+	   <div class="row">
+
+	    <!--Wall Paper-->
+	     <div class="col-md-4">
+	       <div class="card">
+	       	<div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Design</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">Read More</a>
+	          </div>
+	        </div>
+	     </div>
+
+	      <!--Paintings-->
+	      <div class="col-md-4">
+	       <div class="card">
+	          
+	          <div class="card-body">
+	            <h5 class="card-title">Paintings</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+
+	          </div>
+	          <div class="container"> 
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/workpg.png') }}" alt="Card image cap">
+	          </div>
+	        </div>
+	     </div>
+
+	       <!--Window Blinds-->
+	       <div class="col-md-4">
+	          <div class="card">
+		          <div class="container">
+		          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/vertical-blinds.jpg') }}" alt="Card image cap">
+		          </div>
+		          <div class="card-body">
+		            <h5 class="card-title">Window Blinds</h5>
+		            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		            <a href="#" class="btn btn-primary">ReadMore</a>
+		          </div>
+	        </div>
+	       </div>
+	     </div>
+	 </div> 
+	</section>
+
+	<section>
+	  <div class="container mt-5">
+	   <div class="row">
+
+	    <!--Main Office-->
+	     <div class="col-md-4">
+	       <div class="card">
+	          <div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	     </div>
+
+	      <!--Junior Office-->
+	      <div class="col-md-4">
+	       <div class="card">
+	          
+	          <div class="card-body">
+	            <h5 class="card-title">Junior Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+
+	          </div>
+	        	<div class="container">
+	          		<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	        </div>
+	     </div>
+
+	       <!--Compound Office-->
+	       <div class="col-md-4">
+	          <div class="card">
+	          <div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	       </div>
+	     </div>
+	 </div> 
+	</section>
+	
+	<!--Row 5-->
+
+	<section>
+	  <div class="container mt-5">
+	   <div class="row">
+
+	    <!--Main Office-->
+	     <div class="col-md-4">
+	       <div class="card">
+	          <div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	     </div>
+
+	      <!--Junior Office-->
+	      <div class="col-md-4">
+	       <div class="card">
+	          
+	          <div class="card-body">
+	            <h5 class="card-title">Junior Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+
+	          </div>
+	         <div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	        </div>
+	     </div>
+
+	       <!--Compound Office-->
+	       <div class="col-md-4">
+	          <div class="card">
+	          <div class="container">
+	          	<img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/wpchoco.jpg') }}" alt="Card image cap">
+	          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	       </div>
+	     </div>
+	 </div> 
+	</section>
+	
+	<!--Row 5-->
+	
+	
+
+
+{% endblock content%}

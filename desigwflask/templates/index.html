@@ -1,0 +1,158 @@
+<!--the html extends block from layout.html-->
+{% extends "layout.html" %}
+{% block content %}
+<!--The block loads data from the db and displays. acts like a normal html-->
+
+	
+	<section>
+		
+	
+
+	<section>
+	  <div class="container mt-5">
+	   <div class="row">
+
+	    <!--Main Office-->
+	     <div class="col-md-4">
+	       <div class="card">
+          <div class="container-fluid">
+	          <img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/mainoffice.jpg') }}" alt="Card image cap">
+          </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	     </div>
+
+	      <!--Junior Office-->
+	      <div class="col-md-4">
+	       <div class="card">
+	          
+	          <div class="card-body">
+	            <h5 class="card-title">Junior Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+
+	          </div>
+	               <div class="container-fluid">
+                   <img class="card-img-bottom img-fluid" src="{{ url_for('static', filename='images/junioroffice.jpg') }}" alt="Card image cap">
+                 </div>
+	        </div>
+	     </div>
+
+	       <!--Compound Office-->
+	       <div class="col-md-4 container-fluid">
+	          <div class="card">
+              <div class="container-fluid">
+	                 <img class="card-img-top img-fluid" src="{{ url_for('static', filename='images/compoundareas.jpg') }}" alt="Card image cap">
+              </div>
+	          <div class="card-body">
+	            <h5 class="card-title">Main Office</h5>
+	            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	            <a href="#" class="btn btn-primary">ReadMore</a>
+	          </div>
+	        </div>
+	       </div>
+	     </div>
+	 </div> 
+	</section>
+	
+	<!--Row 5-->
+ <section>
+   <div class="container-fluid bg-red p-5">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="row p-3 no-gutters">
+          <div class="col-md-6 p-2 bg-light">
+            <div class=" p-2">
+              <h3>Main Office</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br>
+                nonummy nibh euismod tincidunt ut laoreet dolore magna ali-<br>
+                quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud<br>
+                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea<br>
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit<br>
+            </p>
+            <a href="" class="btn btn-danger">Read more</a>
+            </div>
+          </div>
+          <div class="col-md-6 p-2 bg-dark">
+            <div class="p-2 text-white">
+                  <h3>Compound</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br>
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna ali-<br>
+                    quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud<br>
+                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea<br>
+                    commodo consequat. Duis autem vel eum iriure dolor in hendrerit<br>
+                </p>
+                 <a href="" class="btn btn-danger">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+</div>
+</section>
+<section>
+  <div class=" container-fluid trial p-5">
+   <div class="row">
+     <div class="col-md-4 col-sm-6 p-2">
+   
+    </div>
+     <div class="col-md-8 col-sm-6">
+       <div class="row">
+        <div class="col-md-8 offset-md-2 p-2">
+           <h3>Request A Quote</h3>
+        <form>
+
+          <div class="form-group"><input type="text" name="username" value="" placeholder="Enter your name" class="form-control"></div>
+         <div class="form-group"> <input type="email" name="emal" value="" placeholder="Enter Your Email" class="form-control mt-2"></div>
+          <div class="form-group"><textarea name="message" placeholder="Enter Your Message" class="mt-2 form-control"></textarea></div>
+         <div class="form-group"> <input type="submit" name="submit" value="submit" class="btn btn-block btn-info mt-2"></div>
+
+      </form>
+        </div>
+      </div>
+     </div>
+
+   </div>
+   <div class="row pt-5 bottom">
+     <div class="col-md-3">
+       <div>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+      </div>
+     </div>
+     <div class="col-md-3 " >
+       <ul class="navbar menu-a text-center">
+         <li class="list-item"> <span class="fa fa-home fa-1x"></span></li>
+         <li class="list-item"> <span class="fa fa-user fa-1x"></span></li>
+         <li class="list-item"> <span class="fa fa-envelope fa-1x"></span></li>
+         <li class="list-item"> <span class="fa fa-briefcase fa-1x"></span></li>
+       </ul>
+     </div>
+     <div class="col-md-3 pt-3">
+      <h6 class="text-white"> call us today: 0773 256 000 || 0788 693 131</h6>
+     </div>
+     <div class="col-md-3 pt-3">
+      <h6 class="text-white"> info@designspace.ke</h6>
+     </div>
+   </div>
+  </div>
+</section>
+
+
+
+{% endblock content%}
